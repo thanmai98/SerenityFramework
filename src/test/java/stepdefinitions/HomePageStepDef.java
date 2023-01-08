@@ -17,8 +17,8 @@ public class HomePageStepDef {
         homePage.openWebsite();
     }
 
-    @Then("user clicks on Signin button")
-    public void clickSigninButton() {
-        homePage.clickOnSignin();
+    @Then("user clicks on Login button")
+    public void clickLoginButton() {
+        homePage.clickLogin();
     }
 }

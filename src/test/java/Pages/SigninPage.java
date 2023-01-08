@@ -7,8 +7,9 @@ import org.openqa.selenium.By;
 public class SigninPage extends PageObject {
 
     @Step
-    public void enterEmail(){
-        $(By.id("email_create")).sendKeys("automationtest@yopmail.com");
+    public void enterCredentials(){
+        $(By.id("user-name")).sendKeys("standard_user");
+        $(By.id("password")).sendKeys("secret_sauce");
     }
 
     @Step
